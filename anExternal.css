@@ -1,0 +1,56 @@
+p{
+    font-size:16px;
+}
+
+#font1{font-family: Georgia;}
+#font2{font-family: Lucida Sans;}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.textContainer{
+    border: 3px dotted black;
+    padding-left: 10px;
+}
+
+#showImages{
+    background-color: #ececec;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    width: 1170px;
+    float: right;
+    position: relative;
+}
+
+.centered-text{
+    font-size: 21px;
+    text-align: center;
+    position: absolute;
+    bottom: 81px;
+    left: 51px;
+    color: black;
+}
+
+table {
+    font-family: lato;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 6px 5px #cccccc;
+}
+
+td, th {
+    border: 1px solid #020202;
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    text-align: center !important;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
